@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <meta name="viewpsort" content="width=device-width, initial-scale=1.0">
+   <title>navette leman</title>
+</head>
+<body>
+    <section class="baniere" id="baniere">
+        <div class="logo">
+         <img src="./image/im2.jfif" alt="logo"> </div>
+         <div class="baniere-text">
+         <h1>NAVETTE LEMAN</h1>
+         <p> Navette Leman est une agence spécialisée dans le transport depuis et en direction <br>de l’Aéroport de Genève, avec plus de 15 ans d’expérience.</p>
+        </div>
+    <div class="baniere-btn">
+        <a href="login/logi.php"><span> </span>RESERVERVATION</a>
+        <a href="contact/index.php"><span></span>CONTACT</a>
+    </div>    
+    </section>
+<div class="smenu">
+    <nav> 
+        <ul>
+            <li><a href="#baniere">ACCEUIL</a></li>
+            <li><a href="#tarif">TARIF</a></li>
+            <li><a href="#temoignage">SERVICE</a></li>
+            <li><a href="#service">CONDITIONS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="btnmenu">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+</div>
+<script>
+       document.querySelector('.fa-times').style.display ="none"
+
+const menuBtn = document.querySelector(".btnmenu")
+const Sibebar = document.querySelector(".smenu")
+
+menuBtn.onclick = function(){
+
+    if(Sibebar.style.right == "-250px"){
+        Sibebar.style.right = "0"
+        document.querySelector('.fa-times').style.display =""
+        document.querySelector('.fa-bars').style.display ="none"
+
+    }else{
+        Sibebar.style.right = "-250px"
+        document.querySelector('.fa-times').style.display ="none"
+        document.querySelector('.fa-bars').style.display =""
+    }}</script>
+
+<section class="tarif" id="tarif">
+<div class="titre-text">
+     <h1>TARIFS</h1>
+       <p>POURQUOI CHOISIR NAVETTELEMAN.CH</p>
+       </div>
+
+
+<div class="mission-boite">
+      <div class="missions">
+      <h1>Tarifs de transfert Genève Aéroport pas cher</h1>
+      <div class="description">
+          <div class="mission-img"> 
+            <img src="image/mony.jfif" alt="">
+          </div>
+    <div class="mission-text">
+      <p>Nous vous proposons des transferts de prestige aux meilleurs prix du marché :
+        Nos navettes collectives à partir de 49 CHF.
+        Nos navette privées à partir de 160 CHF</p>
+    </div> 
+    </div>
+    <h1>Navette Aéroport de Genève en meilleures conditions</h1>
+    <div class="description">
+        <div class="mission-img"> 
+            <img src="image/voit.png" alt="">
+           
+        </div>
+  <div class="mission-text">
+    <p>Nous mettons à votre disposition des véhicules de luxe (Van Mercedes Class V, Vito, ...) à une capacité de 1 à 15 personnes permettant de garantir le confort et la ponctualité attendus.</p>
+  </div> </div>
+  <h1>Transfert Aéroport de Genève en toute sécurité</h1>
+  <div class="description">
+      <div class="mission-img"> 
+        <img src="image/secu.png" alt="">
+      </div>
+<div class="mission-text">
+  <p>Les chauffeurs de nos taxis limousine ont une conduite appropriée en toute sécurité avec plusieurs années d'expérience et une bonne connaissance de la région.</p>
+</div> </div>
+ </div>
+<div class="im-mission">   </div>
+     </div>
+</section> 
+
+<section class="temoignage" id="temoignage">
+        <div class="titre-text">
+            <h1>NOS SERVICES DE TRANSFERT AÉROPORT GENÈVE</h1>
+        </div>
+        <div class="temoignagee-boite">
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <div class="info_util">
+                        <h2>Transfert privé avec chauffeur</h2>
+                    </div>
+                </div>
+                <p>Il s'agit d'un service porte-à-porte avec mise à disposition d'un véhicule privé avec chauffeur.Nous vous proposons des transferts de prestige aux meilleurs prix du marché :</p>
+            </div>
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <div class="info_util">
+                        <h2>Service de navette collective</h2>
+                    </div>
+                </div>
+                <p>Service de navette collective
+                    Il s'agit du type de navette aéroport Genève le plus économique.<br> Vous partagerez votre navette avec d'autres personnes</p>
+            </div>
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <div class="info_util">
+                        <h2>Réservation à l'avance</h2>
+                    </div>
+                </div>
+                <p>Nous vous proposons plusieurs services de Transfert Aéroport de Genève :<br> Navette collective low cost, Navette privée pour les trajets directs et Navette VIP pour les transferts de prestige.</p>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="titre-text">
+          
+            <h1>TRANSFERT AÉROPORT GENÈVE EN 4 ÉTAPES</h1>
+        </div>
+        <div class="service_boite">
+            <div class="service_unique">
+                <img src="./image/im1.jfif" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>Réservation Transfert Aéroport Genève</h3>
+                        <hr>
+                        <p>Pour réserver votre navette privée ou collective en taxi limousine ou mini bus, il suffit de remplir le formulaire de réservation en ligne sur navetteleaman.ch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/Transfert.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>Réception d'un email de confirmation
+                            </h3>
+                        <hr>
+                        <p>Une fois votre navette Aéroport Genève réservée en ligne, vous recevrez un email de confirmation contenant les informations relatives à votre réservation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/mini.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>Lieu et horaires de prise en charge
+                            </h3>
+                        <hr>
+                        <p>La prise en charge depuis l'aéroport de Genève se fait dans le hall d'arrivée. Tandis que pour celle vers l'aéroport de Genève, elle se fait au lieu mentionné dans la réservation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/im5.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>Arrivée à la destination souhaitée</h3>
+                        <hr>
+                        <p>Votre course assurée par NavetteLeman.ch est effectuée : Vous êtes arrivées à votre destination en toute sécurité et dans les meilleures conditions en espérant vous revoir à bord.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="Contact" id="contact">
+        <img src="./image/im2.jpg" alt="" class="img-footer">
+        <div class="titre-text">
+            <h1>Contact</h1>
+        </div>
+        <div class="pied-page">
+            <div class="pied-g">
+                <h1>Heures d'Ouverture</h1>
+                <p><i class="far fa-clock"></i>Lundi au Vendredi - 8h a 00h</p>
+                <p><i class="far fa-clock"></i>Samedi au DImanche - 8h a 18h</p>
+            </div>
+            <div class="pied-d">
+                <h1>Nous contactez</h1>
+                <p>Suisse Genève<i class="fas fa-map-marker"></i></p>
+                <p>taxileman@gmail.com<i class="far fa-envelope"></i></p>
+                <p>+4123658999<i class="fas fa-mobile"></i></p>
+            </div>
+        </div>
+        <div class="reseaux-so">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+</body>
+</html>

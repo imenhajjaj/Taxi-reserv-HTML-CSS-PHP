@@ -1,0 +1,45 @@
+
+#resForm {
+  max-width: 500px;
+  height: 500px;
+  padding: 25px;
+  background: #d1c7c7;
+  border: 1px solid #aaa;
+  margin-left: 500px;
+ 
+}
+#resForm label, #resForm input, #resForm select {
+  display:center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+h1{
+  color: #fff;
+  text-align: center;
+}
+#resForm input[type="submit"] {
+  background: #425869;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+div.ok, div.err { 
+  padding: 5px; 
+  font-weight: bold;
+}
+div.ok { 
+  background: #9cffbb; 
+  border: 1px solid #1ca526;
+}
+div.err { 
+  background: #9c8e8e; 
+  border: 1px solid #bb1919;
+}
+html, body { 
+  font-family: arial, sans-serif; 
+  background: url('la.jfif');
+}
